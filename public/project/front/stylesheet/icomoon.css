@@ -1,0 +1,172 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?rxj9r8');
+  src:  url('../fonts/icomoon.eot?rxj9r8#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?rxj9r8') format('truetype'),
+    url('../fonts/icomoon.woff?rxj9r8') format('woff'),
+    url('../fonts/icomoon.svg?rxj9r8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-hanging-bot:before {
+  content: "\e922";
+  color: #348e38;
+}
+.icon-admin-sys:before {
+  content: "\e923";
+  color: #348e38;
+}
+.icon-spray:before {
+  content: "\e924";
+  color: #348e38;
+}
+.icon-tele-sale:before {
+  content: "\e925";
+  color: #348e38;
+}
+.icon-Group-7526 .path1:before {
+  content: "\e911";
+  color: rgb(101, 225, 130);
+}
+.icon-Group-7526 .path2:before {
+  content: "\e912";
+  margin-left: -1.1474609375em;
+  color: rgb(15, 66, 41);
+}
+.icon-Group-7526 .path3:before {
+  content: "\e913";
+  margin-left: -1.1474609375em;
+  color: rgb(15, 66, 41);
+}
+.icon-Group-7526 .path4:before {
+  content: "\e914";
+  margin-left: -1.1474609375em;
+  color: rgb(15, 66, 41);
+}
+.icon-Group-7526 .path5:before {
+  content: "\e915";
+  margin-left: -1.1474609375em;
+  color: rgb(15, 66, 41);
+}
+.icon-Group-7526 .path6:before {
+  content: "\e916";
+  margin-left: -1.1474609375em;
+  color: rgb(15, 66, 41);
+}
+.icon-Group-7527 .path1:before {
+  content: "\e917";
+  color: rgb(101, 225, 130);
+}
+.icon-Group-7527 .path2:before {
+  content: "\e918";
+  margin-left: -0.873046875em;
+  color: rgb(15, 66, 41);
+}
+.icon-Group-7527 .path3:before {
+  content: "\e919";
+  margin-left: -0.873046875em;
+  color: rgb(15, 66, 41);
+}
+.icon-Group-7528 .path1:before {
+  content: "\e91a";
+  color: rgb(101, 225, 130);
+}
+.icon-Group-7528 .path2:before {
+  content: "\e91b";
+  margin-left: -1.02734375em;
+  color: rgb(15, 66, 41);
+}
+.icon-Group-7528 .path3:before {
+  content: "\e91c";
+  margin-left: -1.02734375em;
+  color: rgb(15, 66, 41);
+}
+.icon-icon-farming-layer .path1:before {
+  content: "\e91d";
+  color: rgb(101, 225, 130);
+}
+.icon-icon-farming-layer .path2:before {
+  content: "\e91e";
+  margin-left: -1.009765625em;
+  color: rgb(15, 66, 41);
+}
+.icon-icon-farming-layer .path3:before {
+  content: "\e91f";
+  margin-left: -1.009765625em;
+  color: rgb(15, 66, 41);
+}
+.icon-icon-farming-layer .path4:before {
+  content: "\e920";
+  margin-left: -1.009765625em;
+  color: rgb(15, 66, 41);
+}
+.icon-icon-farming-layer .path5:before {
+  content: "\e921";
+  margin-left: -1.009765625em;
+  color: rgb(15, 66, 41);
+}
+.icon-greenhouse1:before {
+  content: "\e907";
+  color: #0f4229;
+}
+.icon-seeding1:before {
+  content: "\e90c";
+  color: #0f4229;
+}
+.icon-watering-can1:before {
+  content: "\e90d";
+  color: #0f4229;
+}
+.icon-icon1:before {
+  content: "\e90e";
+  color: #fff;
+}
+.icon-icon21:before {
+  content: "\e90f";
+  color: #fff;
+}
+.icon-icon31:before {
+  content: "\e910";
+  color: #fff;
+}
+.icon-seed:before {
+  content: "\e900";
+  color: #348e38;
+}
+.icon-farming:before {
+  content: "\e901";
+  color: #348e38;
+}
+.icon-hand-gloves:before {
+  content: "\e902";
+  color: #348e38;
+}
+.icon-fruit-box:before {
+  content: "\e903";
+  color: #348e38;
+}
+.icon-Group-660:before {
+  content: "\e904";
+  color: #348e38;
+}
+.icon-Group-661:before {
+  content: "\e905";
+  color: #348e38;
+}

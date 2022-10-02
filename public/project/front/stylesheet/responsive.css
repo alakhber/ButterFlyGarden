@@ -1,0 +1,994 @@
+/* Media Queries
+-------------------------------------------------------------- */
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .flat-testimonials-post .owl-controls {
+    display: none;
+  }
+
+  .about-content {
+    margin: 0;
+  }
+
+  #mainnav .menu li a {
+    font-size: 15px;
+  }
+
+  .nav-wrap {
+    margin-left: -30%;
+  }
+
+  #header .site-header-right .button {
+    margin-top: -2px;
+    margin-left: 10px;
+  }
+
+  #header .cart {
+    padding-left: 15px;
+  }
+
+  .features-home2 {
+    left: 0;
+    right: 0;
+  }
+
+  .flat-features .features-box {
+    display: unset;
+  }
+
+  .flat-why-choose-us .button-read-more {
+    left: unset;
+  }
+
+  .flat-news-home2 .news-content-box {
+    top: 155px;
+  }
+
+  .flat-about .circel-inside {
+    right: 220px;
+  }
+
+  .flat-about .image-desc {
+    text-align: unset;
+  }
+
+
+  .flat-team .icon-top::after {
+    top: 4px;
+    right: 25px;
+  }
+
+  .flat-profolio-home2 .list-box-profolio .image-profolio .active {
+    height: 37.4%;
+  }
+
+  .flat-profolio-home2 .list-box-profolio:hover .profolio-show {
+    height: 70%;
+  }
+
+  .flat-profolio-home2 .profolio-info .desc-box {
+    max-width: 150px;
+    max-height: 34px;
+    overflow: hidden;
+  }
+
+  .flat-profolio .item-four-column {
+    width: 50%;
+}
+.list-box-profolio .image-profolio {
+  margin-bottom: 30px;
+}
+
+  .flat-testimonials .dividers-testimonials {
+    height: 40px;
+  }
+
+  .flat-about-2nd .content-right {
+    padding: 60px 4.4% 178px 1.3%;
+  }
+
+  .flat-contact .contact-address {
+    bottom: 20px;
+    left: -314px;
+  }
+
+  .footer .footer-contact-info .location {
+    padding-right: 0px;
+  }
+
+  .footer .footer-contact-info .phone-call {
+    padding-left: 2.6%;
+  }
+
+  .footer .footer-contact-info .email {
+    padding-left: 5%;
+  }
+
+  .footer .logo-footer {
+    padding: 33px 25px 33px 25px;
+  }
+}
+
+/* Smaller than standard 1200 */
+@media only screen and (max-width: 1199px) {
+}
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  #header .header-wrap-home1,
+  .top-header1 .top-bar-right {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 4%;
+  }
+
+  .list-footer.wow.fadeInUp {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .list-footer .footer-item,
+  .flat-profolio-home2 .item-three-column {
+    width: 50%;
+  }
+
+  .flat-why-choose-us .WCU-image {
+    height: 160px;
+  }
+
+  .flat-why-choose-us .button-read-more {
+    left: 15%;
+    transform: translate(0);
+  }
+
+  .flat-about-home2 .about-box-right {
+    padding: 50px 25% 0 25px;
+  }
+
+  .flat-about-home2 .about-content-left .about-count-year {
+    bottom: -65px;
+  }
+
+  .flat-about-2nd .content-right {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+
+  .flat-profolio-home2 .item-flex-100 {
+    display: flex;
+    width: 100% !important;
+  }
+
+  .item-flex-100 .list-box-profolio:first-child {
+    margin-right: 15px;
+  }
+
+  .item-flex-100 .list-box-profolio:last-child {
+    margin-left: 15px;
+  }
+
+  .flat-profolio-home2 .list-box-profolio:hover .profolio-show {
+    height: 65%;
+  }
+
+  .flat-profolio-home2 .list-box-profolio .image-profolio .active {
+    height: 31.4%;
+  }
+
+  .flat-profolio-home2 .list-box-profolio .profolio-info .profolio-btn::after {
+    margin-left: unset;
+    margin-right: 25px;
+  }
+
+  .flat-profolio-home2 .desc-box {
+    max-height: 30px;
+    overflow: hidden;
+  }
+
+  .flat-testimonials-home2 .testimonials-author-box {
+    margin: 20px 0;
+    width: unset;
+  }
+
+  .flat-news-home2 .news-content-box {
+    padding: 30px 20px 23px 25px;
+  }
+
+  .flat-news-home2 .button-news {
+    margin-right: unset;
+    margin-top: 15%;
+  }
+
+  .footer-style-2 .title-section-footer::before {
+    top: 40%;
+  }
+
+  .flat-team .icon-top::after {
+    padding: 10px 11px 10px 11px;
+    font-size: 10px;
+  }
+
+  .flat-team .list-icon-hidden .fa {
+    padding: 10px 11px 10px 11px;
+    font-size: 10px;
+  }
+
+  .widgets-nav-social {
+    line-height: unset;
+  }
+
+  .footer .logo-footer {
+    padding: 38px 18px 38px 18px;
+  }
+
+  .footer .content-email {
+    max-width: 120px;
+    overflow: hidden;
+  }
+
+  .footer .footer-contact-info .email {
+    padding-left: 4%;
+  }
+
+  .footer .footer-contact-info .location {
+    padding-left: 6.3%;
+    padding-right: 0;
+  }
+
+  .footer .footer-contact-info .phone-call {
+    padding-left: 0%;
+  }
+
+  .footer .content-location {
+    max-height: 80px;
+    overflow: hidden;
+  }
+
+  .flat-about-2nd .tag-logo {
+    right: 0;
+  }
+
+  .flat-about-2nd .content-left {
+    margin-right: 0;
+  }
+
+  .about-desc {
+    width: 30%;
+  }
+
+  .flat-about .circel-inside {
+    right: 94px;
+  }
+
+  #header .site-header-right .button,
+  .contact .contact-address {
+    display: none;
+  }
+
+  #header .header-wrap-home1 .inner-header {
+    padding-left: 0;
+  }
+  #mainnav .menu li a {
+    font-size: 15px;
+  }
+
+  .footer .footer-contact-info .heading-16px-rubik {
+    font-size: 12px;
+  }
+
+  .about-inner .about-post {
+    margin-top: 4.7%;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .about-inner .about-content {
+    margin-left: 0;
+    margin-top: 11%;
+  }
+
+  .team .list-team {
+    margin: 71px 23% 0 23%;
+  }
+
+  .team .our-profolio {
+    margin: 10px 3% 0 2.4%;
+  }
+
+  .team .image-profolio {
+    margin-bottom: 25px;
+  }
+
+  .team .profolio-info {
+    margin-left: 15.6px;
+    margin-right: 15.6px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+  }
+
+  .team .image-profolio:hover .profolio-show {
+    height: 36%;
+  }
+
+  .about-2nd .about-content-left {
+    padding-right: 0;
+  }
+
+  .about-2nd .content-right {
+    padding: 120px 0 203px 7.2%;
+  }
+
+  .work-process .section-title {
+    padding: 0 20% 0 20.5%;
+  }
+
+  .contact {
+    padding: 50px 5px 99px 0px;
+  }
+
+  .contact .contact-left {
+    padding-right: 20%;
+  }
+
+  .contact .contact-right {
+    margin: 50px 0 0 0;
+  }
+
+  .contact .contact-right .form-contact-right {
+    padding: 58px 44px 51px 44px;
+  }
+}
+
+/* Smaller than standard 992 */
+@media only screen and (max-width: 991px) {
+
+  .footer-style-2 .list-footer,
+  .flat-contact .contact-address {
+    width: 100% !important;
+  }
+
+  .features-home2 .features-home2-box,
+  .flat-about-home2 .about-content-right,
+  .flat-why-choose-us .flat-WCU-box,
+  .flat-about-home2 .about-content-left,
+  .flat-service-home2 .service-box,
+  .flat-shop,
+  .flat-shop .shop-item-box,
+  .flat-counter .counter-content-left,
+  .flat-counter .counter-content-right,
+  .flat-profolio-home2,
+  .flat-testimonials-home2 .testimonials-content-right,
+  .flat-news-home2 .section-title-box,
+  .flat-news-home2 .flat-news-box,
+  .footer-style-2 .list-footer,
+  .footer-style-2 .footer-form-home2,
+  .flat-features,
+  .inner-features,
+  .about-content,
+  .flat-about .button,
+  .flat-services .our-services-box,
+  .flat-team .list-team,
+  .flat-profolio,
+  .subcribe-box,
+  .flat-work-process .features-box,
+  .flat-blog-home01 .blog-item,
+  .flat-testimonials,
+  .flat-contact .contact-right,
+  .footer .footer-contact-info,
+  .footer .top-footer-left,
+  .widgets-menu-1, .widgets-menu-2, .widgets-subcribes,
+  .features-home2 .section-desc,
+  .footer-style-2 .widgets-menu-1 .list-menu-1,
+  .flat-blog-standard,
+  .flat-blog-detail,
+  .flat-faq,
+  .flat-contact-page,
+  .subcribe-box .form-subcribe,
+  .flat-case-details .author-note,
+  .flat-case-details .author-post,
+  .flat-case-details {
+    margin: 0;
+  }
+
+  .widgets-nav-social,
+  #header .header-wrap,
+  .footer-bottom,
+  .flat-services,
+  .flat-team,
+  .flat-about-2nd .content-right,
+  .flat-work-process,
+  .flat-contact,
+  .flat-blog-home01,
+  .flat-profolio,
+  .flat-contact .section-title,
+  .list-footer {
+    margin: 0;
+    padding: 0;
+  }
+
+  .top-header {
+    padding: 0 20px;
+  }
+
+  .features-home2 {
+    left: 0;
+    right: 0;
+  }
+
+  #header .header-wrap {
+    padding: 0 5px;
+  }
+
+  .flat-profolio-home2 {
+    padding: 0 10px;
+  }
+
+  .subcribe-box .inner-subcribe-box,
+  .flat-contact .contact-right .form-contact-right {
+    padding: 30px;
+  }
+
+  .subcribe-box .form-subcribe {
+    margin-top: 10px;
+  }
+
+  .flat-why-choose-us .content-features,
+  .flat-about-home2 .about-content-right,
+  .flat-news-home2 .news-content-box {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .features-box,
+  .flat-services .our-services-box,
+  .flat-work-process .features-box,
+  .flat-team .team-box,
+  .flat-work-process .content-features,
+  .flat-contact .contact-left,
+  .widgets-menu-1, .widgets-menu-2, .widgets-subcribes,
+  .flat-why-choose-us .WCU-image,
+  .flat-case-details .author-post {
+    margin-bottom: 30px;
+  }
+
+  .flat-shop,
+  .flat-testimonials-home2,
+  .footer-style-2 .footer-form-home2,
+  .about-content,
+  .flat-services,
+  .flat-team,
+  .flat-profolio,
+  .flat-about-2nd .content-right,
+  .flat-contact,
+  .flat-blog-home01,
+  .flat-faq,
+  .flat-contact-page,
+  .flat-case-details {
+    padding: 60px 0;
+  }
+
+  .flat-blog-standard,
+  .flat-blog-detail {
+    padding: 60px 0 120px 0;
+  }
+
+  .flat-about-home2 .image-about-home2,
+  .img-center,
+  #mainnav,
+  .site-header-right,
+  .search,
+  .cart {
+    display: none;
+  }
+
+  .flat-why-choose-us .features-box,
+  .list-footer {
+    display: block;
+  }
+
+  .flat-why-choose-us .features-box,
+  .flat-about .about-post,
+  .flat-case-details .post-inner-box,
+  .flat-case-details .author-post {
+    text-align: center;
+  }
+
+  .flat-why-choose-us,
+  .flat-about-home2,
+  .flat-testimonials-home2,
+  .flat-news-home2,
+  .flat-about-2nd .content-right,
+  .flat-work-process,
+  .footer  {
+    background-image: unset;
+  }
+
+  .flat-service-home2 {
+    height: unset;
+  }
+
+  .flat-contact .contact-address {
+    position: unset;
+  }
+
+  .item-four-column,
+  .widget_lastest,
+  .widgets-contact-info,
+  .flat-shop .tf-shop-item li {
+    width: 50%;
+  }
+
+  .flat-shop .tf-shop-item {
+    flex-wrap: wrap;
+  }
+
+  .widget_lastest {
+    float: left;
+    padding-right: 10px;
+  }
+
+  .widgets-contact-info {
+    float: right;
+    padding-left: 10px;
+  }
+
+  .flat-profolio .image-profolio:hover .profolio-show {
+    height: 38%;
+  }
+
+  .flat-about-2nd .subcribe-about {
+    position: unset;
+  }
+
+  .flat-profolio .image-profolio .active {
+    height: 38%;
+  }
+
+  .flat-profolio-home2 .list-box-profolio .profolio-info .button-next {
+    right: 0;
+  }
+
+  .flat-profolio .profolio-info .desc-box,
+  .flat-profolio-home2 .profolio-info .desc-box {
+    max-width: 150px;
+    max-height: 34px;
+    overflow: hidden;
+  }
+
+  .themesflat-pagination-style2 .text-left {
+    padding: 38px 17px 38px 125px;
+  }
+
+  .themesflat-pagination-style2 .text-right {
+    padding: 38px 154px 38px 0px;
+  }
+
+  .flat-service-details .icon-services {
+    padding: 40px;
+  }
+
+  .flat-profolio .profolio-info {
+    margin-right: 6.1%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .flat-profolio .list-box-profolio {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .flat-team .image-staff:not(:hover) .list-icon-hidden {
+    right: -70%;
+    transition: 1s ease;
+  }
+
+  .flat-team .icon-top::after {
+    top: 5px;
+    right: 14px;
+  }
+
+  .logo {
+    display: inline-block;
+  }
+
+  .btn-menu {
+    position: absolute;
+    display: block;
+    right: 15px;
+  }
+
+  .nav-wrap {
+    position: relative;
+  }
+
+  .content-blog-detail .input-yourname,
+  .input-youremail {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .themesflat-map { height: 300px; }
+}
+
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {
+  /* reset padding */
+
+  .features-home2 .features-home2-box,
+  .flat-news-home2 .button-news,
+  .flat-news-home2 .flat-news-box,
+  .list-footer .widgets-about,
+  .footer-style-2 .list-contact-footer2,
+  .footer-style-2 .widgets-menu-1,
+  .footer-style-2 .widgets-menu-2,
+  .footer-style-2 .footer-form-home2,
+  .flat-team .list-team,
+  #header .header-wrap-home1,
+  .flat-about-2nd .content-left,
+  .about-2nd .section-title,
+  .footer-style-2 .widgets-about .widgets-nav-social,
+  .flat-service-details .services-item-left,
+  .flat-service-details .services-item-right {
+    margin: 0 !important;
+  }
+
+  .features-home2 .features-home2-box,
+  .flat-work-process .icon-wp-box {
+    padding: 20px;
+  }
+
+  .features-home2 .features-home2-box,
+  .flat-about .about-desc-box,
+  .top-header,
+  .flat-about-2nd .box,
+  .top-header .top-bar-right,
+  .flat-news-home2 .button-news,
+  .subcribe-box .btn-subcribe,
+  .flat-work-process .features-box,
+  .flat-service-details .services-item  {
+    display: block;
+  }
+
+  #header .site-header-right .button,
+  .img-slide,
+  .footer .top-footer,
+  .flat-work-process .icon-box,
+  .flat-work-process .icon-box2,
+  .flat-work-process .icon-box3,
+  .flat-case-details .paginate-box .content-features,
+  .ripple  {
+    display: none;
+  }
+
+  .features-home2 .features-left,
+  .features-home2 .features-right,
+  .item-three-column,
+  .item-four-column,
+  .top-header .top-bar-right,
+  .footer-style-2 .widgets-about,
+  .footer-style-2 .list-footer .footer-item,
+  .top-header1 .top-bar-right,
+  .flat-about .image-desc,
+  .list-footer .footer-item,
+  .subcribe-box .btn-subcribe,
+  .widget_lastest,
+  .widgets-contact-info,
+  .image-desc,
+  .flat-about .image,
+  .flat-service-details .post-inner-box img {
+    width: 100% !important;
+  }
+
+  .flat-counter .background-counter {
+    height: unset;
+  }
+
+  .top-header .top-bar-left {
+    display: block !important;
+    float: unset;
+  }
+
+  #header .header-wrap,
+  .footer-bottom,
+  .top-bar-right .widgets-nav-social,
+  .top-footer-style2 .widgets-nav-social {
+    justify-content: center;
+  }
+
+  .section-title,
+  .title-main {
+    font-size: 37px;
+  }
+
+  .features-home2 {
+    bottom: -211px;
+  }
+
+  .top-header .top-bar-left,
+  .top-header-inner,
+  .top-bar-right,
+  .top-header .top-bar-right,
+  .widgets-nav-social {
+    line-height: unset;
+  }
+
+  .top-header,
+  .top-header1 {
+    padding: 10px 0;
+  }
+
+  .flat-counter .content-left-box {
+    position: unset;
+    width: unset;
+  }
+
+  .flat-why-choose-us .flat-WCU-box:first-child,
+  .top-header1 {
+    margin-bottom: 60px;
+  }
+
+  .list-footer,
+  .top-footer-style2 {
+    margin-top: 60px;
+  }
+
+  .footer-style-2 .list-footer,
+  .footer-style-2 .list-footer .footer-item,
+  .widgets-contact-info {
+    margin-top: 30px;
+  }
+
+  .image-desc {
+    margin: 30px 0;
+  }
+
+  #header .header-wrap-home1 .inner-header,
+  #header .header-wrap,
+  .flat-profolio-home2,
+  .flat-services .our-services-box .icon-size,
+  .flat-services .our-services-box .icon-size2,
+  .flat-services .our-services-box .icon-size3,
+  .flat-services .our-services-box .icon-size4,
+  .footer-style-2 .list-footer,
+  .list-footer .text-decs,
+  .footer-style-2 .widgets-menu-1 .list-menu-1,
+  footer .widgets-about .widgets-nav-social,
+  .widget_lastest,
+  .widgets-contact-info  {
+    padding: 0 !important;
+  }
+
+  .flat-about-home2 .content-features,
+  .list-footer .text-decs,
+  .footer-style-2 .list-contact-footer2,
+  .footer-style-2 .widgets-about .widgets-nav-social {
+    margin-top: 20px !important;
+  }
+
+  .flat-profolio-home2 .list-box-profolio .profolio-info .profolio-btn::after {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+
+  .flat-profolio-home2 .list-box-profolio .image-profolio .active {
+    height: 32.4%;
+  }
+
+  .flat-profolio-home2 .list-box-profolio:hover .profolio-show {
+    height: 62.4%;
+  }
+
+  .flat-news-home2 .button-news {
+    float: left;
+  }
+
+  .flat-profolio-home2 .desc-box {
+    max-height: 30px;
+    overflow: hidden;
+  }
+
+  .flat-testimonials-home2 .testimonials-author-box,
+  .flat-about .about-desc-box,
+  footer .widgets-about .widgets-nav-social {
+    margin: 20px 0;
+  }
+
+  .flat-testimonials-home2 .author-carousel {
+    bottom: -20px;
+    left: 0;
+    padding: 0 15px;
+  }
+
+  .flat-service-details .create-by-author,
+  .flat-case-details .author-note {
+    padding: 20px;
+  }
+
+  .flat-blog-standard,
+  .flat-blog-detail {
+    padding-bottom: 60px !important;
+  }
+
+  .top-footer-style2,
+  .flat-about .button,
+  .top-header1,
+  .flat-about .image-desc,
+  .top-header,
+  .subcribe-box .btn-subcribe,
+  .flat-work-process .icon-wp-box,
+  .flat-work-process .content-features {
+    text-align: center;
+  }
+
+  .footer-style-2 .title-section-footer::before,
+  .subcribe-box .btn-subcribe {
+    position: unset;
+  }
+
+  .flat-services .our-services-box {
+    display: grid;
+    text-align: center !important;
+    padding-top: 30px;
+    margin: 0 0 30px 0;
+  }
+
+  .flat-services .content-features {
+    padding: 24px 20px 12px 20px;
+  }
+
+  .flat-contact-page .contact-right .form-contact-right {
+    padding: 0 15px;
+  }
+
+  .flat-testimonials .list-testimonials {
+    margin: 103px 0 120px 0;
+  }
+
+  .subcribe-box {
+    height: unset;
+    padding-bottom: 37px;
+  }
+
+  .flat-team .list-team {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .flat-about-2nd .content-left {
+    height: 500px;
+  }
+
+  .flat-about-2nd .desc-features {
+    padding-right: 15px;
+  }
+
+  .res-btn-slider,
+  .flat-service-details .post-inner-box {
+    margin-bottom: 20px;
+  }
+
+  .flat-work-process .icon-box2 {
+    position: absolute;
+    top: 42%;
+    right: -44px;
+  }
+
+  .flat-work-process .icon-box3 {
+    position: absolute;
+    top: 43%;
+    right: -42px;
+  }
+
+  #rev-slider2 .button-box {
+    display: unset;
+    margin-top: 170px;
+  }
+
+  .flat-work-process .content-features {
+    padding: 34px 35px 0 15px;
+  }
+
+  .flat-contact .info {
+    max-height: 59px;
+    overflow: hidden;
+  }
+
+  .flat-contact .contact-right .input-phone,
+  .flat-contact-page .contact-right .input-phone,
+  .input-services,
+  .content-blog-detail .box-2 {
+    margin-left: 0;
+  }
+
+  .list-menu-1,
+  .footer-style-2 ul.list-menu-1,
+  .list-menu-2 {
+    margin-left: 20px !important;
+  }
+
+  .flat-contact .contact-right .input-name,
+  .flat-contact-page .contact-right .input-name,
+  .input-phone,
+  .input-email,
+  .input-services,
+  .flat-shop .tf-shop-item li {
+    width: 100%;
+  }
+
+  .flat-contact .contact-right .input-row,
+  .flat-contact-page .contact-right .input-row {
+    display: unset;
+  }
+
+  .flat-contact .contact-right .form-contact-right,
+  .flat-contact-page .contact-right .form-contact-right {
+    margin-top: 30px;
+  }
+
+  .flat-work-process .section-title {
+    padding: 0;
+  }
+
+  .subcribe-box .form-subcribe {
+    margin: 0;
+  }
+
+  .subcribe-box .form-subcribe {
+    margin-top: 20px;
+  }
+
+  .subcribe-box .inner-subcribe-box {
+    padding-top: 40px;
+    padding-left: 25px;
+  }
+
+  .flat-about-2nd .content-right .about-box,
+  .about-box {
+    width: 100%;
+  }
+
+  .flat-about-2nd .tag-logo {
+    right: 0;
+  }
+
+  .flat-profolio .list-box-profolio {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 25px;
+  }
+
+  .flat-team .icon-top::after {
+    top: 12px;
+    right: 25px;
+  }
+
+  .tf-features .desc-features {
+    margin-bottom: 20px;
+    max-height: 80px;
+    overflow: hidden;
+  }
+
+  .service-inner .desc-features {
+    max-height: 88px;
+    overflow: hidden;
+  }
+
+  .about-2nd .content-right {
+    padding: 98px 0 160px 5%;
+  }
+
+  .flat-case-study .list-box-profolio .image-profolio .active,
+   .flat-case-study .list-box-profolio .image-profolio:hover .profolio-show {
+    height: 40%;
+}
+
+  /* Mobile Portrait Size */
+  @media only screen and (max-width: 549px) {
+  }
+
+  @media (max-width: 320px) {
+  }
+}
