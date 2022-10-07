@@ -20,9 +20,9 @@ class ContactMail extends Mailable
 
     public function build()
     {
-        return $this->subject(config('app.name') . ' - ' . __('mail.apply-form'))
+        return $this->subject(config('app.name') )
                     ->from('info@example.com')
                     ->to('info@example.com')
-                    ->markdown('emails.front.apply-mail');
+                    ->markdown('emails.contact-mail');
     }
 }

@@ -1,5 +1,5 @@
 @component('mail::message')
-# {{ config('app.name') }} - @lang('mail.apply-form')
+# {{ config('app.name') }} 
 <hr>
 
 <strong>@lang('mail.fullname')</strong> {{ $data['fullname'] }}<br>
