@@ -64,7 +64,7 @@
     <div class="content">
 
         <!-- Main charts -->
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-xl-7">
 
                 <!-- Traffic sources -->
@@ -128,12 +128,12 @@
 
             </div>
 
-        </div>
+        </div> --}}
         <!-- /main charts -->
 
 
         <!-- Dashboard content -->
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-xl-8">
 
                 <!-- Marketing campaigns -->
@@ -1705,7 +1705,7 @@
                 <!-- /daily financials -->
 
             </div>
-        </div>
+        </div> --}}
         <!-- /dashboard content -->
 
     </div>
