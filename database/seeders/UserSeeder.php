@@ -19,9 +19,9 @@ class UserSeeder extends Seeder
         User::create([
             'fullname'=>'Alakhber Nakhiyev',
             'username'=>'nakhiyev',
-            'email'=>'nakhiyev.alakhber@gmail.com',
+            'email'=>'admin@butterflygarden.az',
             'phone'=>'+994557090184',
-            'password'=>Hash::make('nakhiyev'),
+            'password'=>Hash::make('adrootmin@butterflygarden.az'),
             'type'=>'Super-Admin',
         ]);
         // for ($i=0; $i <50 ; $i++) { 
