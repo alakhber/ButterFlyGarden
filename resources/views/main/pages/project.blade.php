@@ -195,6 +195,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
+                    <h3 class="section-heading-jost-size46 fw-500 text-pri2-color center mg-bottom-50 ">{{ $project->name }}</h3>
+
                     @if (count($project->gallery) > 0)
                         <div class="slickcorusel">
                             <div class="slider-for">
@@ -224,7 +226,6 @@
                             </div>
                         </div>
                     @else
-                        <h3 class="section-heading-jost-size46 fw-500 text-pri2-color center mg-bottom-50 ">{{ $project->name }}</h3>
                         <div class="post-case-details" style="width: 100%;height: 500px;">
                             <img style="width: 100%;height: 100%; object-fit: contain" style="width: 50%;display: block;margin: auto" src="{{ _img($project->avatar) }}" alt="{{ $project->name }}">
                         </div>
