@@ -59,7 +59,7 @@
 
     </div>
     <!-- /.page-title -->
-
+  
     <!-- about -->
     <section class="flat-about">
         <div class="container">
@@ -75,7 +75,7 @@
                         <div class="about-count-box themesflat-counter">
                             <div class="box">
                                 <div class="inner-about-count-box">
-                                    <span class="number-count number" data-speed="1500" data-to="20" data-inviewport="yes">20</span>
+                                    <span class="number-count number" data-speed="1500" data-to="{{ _about('workyear') }}" data-inviewport="yes"></span>
                                     <div class="caption-number-count">
                                         İlin Təcrübəsi
                                     </div>
@@ -154,7 +154,7 @@
                                 <a href="{{ route('service', $service->slug) }}">
                                     <h3 class="section-heading-jost-size22">{{ $service->name }}</h3>
                                 </a>
-                                <p class="section-desc">
+                                <p class="section-desc" style="word-break: break-all">
                                     {{ substr($service->shortcontent, 0, 150) }}
                                 </p>
                                 <div class="link2 link-style2">
@@ -192,7 +192,7 @@
 
                             <li>
                                 <div class="shop-item-box">
-                                    <div class="product-labels labels-rounded">
+                                    {{-- <div class="product-labels labels-rounded">
                                         <span class="attribute-label product-label label-with-img">
                                             <img src="https://shop.pitomnik-sochi.ru/wp-content/uploads/2020/08/5.svg" title="5" alt="5">
                                         </span>
@@ -202,12 +202,12 @@
                                         <span class="attribute-label product-label label-with-img">
                                             <img src="https://shop.pitomnik-sochi.ru/wp-content/uploads/2020/09/04-06.svg" title="04-06-m" alt="04-06-m">
                                         </span>
-                                    </div>
+                                    </div> --}}
                                     <div class="image-item">
                                         <img src="{{ _img($product->avatar) }}" alt="{{ $product->fullname }}">
                                     </div>
                                     <div class="content-item">
-                                        <a href="{{ route('project', $product->slug) }}" class="section-heading-jost-size20">{{ $product->name }}</a>
+                                        <a href="{{ route('product', $product->slug) }}" class="section-heading-jost-size20">{{ $product->name }}</a>
                                         {{-- <div class="price-item">$12.00</div> --}}
                                     </div>
                                 </div>
@@ -249,15 +249,15 @@
                 <div class="col-md-3">
                     <div class="counter-content-right themesflat-counter wow fadeInRight">
                         <div class="content-right-box mg-bottom30">
-                            <span class="title-main white number" data-speed="1000" data-to="10" data-inviewport="yes">10+</span><span class="title-main white"> İldən</span>
+                            <span class="title-main white number" data-speed="1000" data-to="{{ _about('workyear') }}" data-inviewport="yes"></span><span class="title-main white"> İldən</span>
                             <h3 class="section-heading-jost-size20 fw-600"> Artıq İş Təcrübəsi</h3>
                         </div>
                         <div class="content-right-box box-2 mg-bottom30">
-                            <span class="title-main white number" data-speed="1500" data-to="95" data-inviewport="yes">95</span><span class="title-main white">K</span>
+                            <span class="title-main white number" data-speed="1000" data-to="{{ _about('customer') }}" data-inviewport="yes"></span><span class="title-main white"></span>
                             <h3 class="section-heading-jost-size20 fw-600">Müstəri</h3>
                         </div>
                         <div class="content-right-box box-3">
-                            <span class="title-main white number" data-speed="2000" data-to="100" data-inviewport="yes">100</span><span class="title-main white">%</span>
+                            <span class="title-main white number" data-speed="2000" data-to="{{ _about('satisfaction') }}" data-inviewport="yes"></span><span class="title-main white">%</span>
                             <h3 class="section-heading-jost-size20 mg-top-5 fw-600">Məmnuniyyət</h3>
                         </div>
                     </div>
