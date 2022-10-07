@@ -9,7 +9,7 @@ class About extends Model
 {
     use HasFactory;
 
-    protected $fillable =['aboutus','about'];
+    protected $fillable =['aboutus','about','','customer','satisfaction'];
 
     public function seo()
     {

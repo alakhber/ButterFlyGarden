@@ -18,6 +18,9 @@ class AboutSeeder extends Seeder
         About::create([
             'about'=>'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consectetur sapiente placeat natus porro et facilis autem adipisci perferendis dolor impedit, voluptas vitae eveniet incidunt officiis deserunt molestiae libero aliquid!',
             'aboutus'=>'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consectetur sapiente placeat natus porro et facilis autem adipisci perferendis dolor impedit, voluptas vitae eveniet incidunt officiis deserunt molestiae libero aliquid!',
+            'workyear'=>10,
+            'customer'=>'5',
+            'satisfaction'=>'97',
         ]);
     }
 }

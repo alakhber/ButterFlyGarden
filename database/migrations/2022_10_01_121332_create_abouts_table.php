@@ -16,6 +16,9 @@ return new class extends Migration
         Schema::create('abouts', function (Blueprint $table) {
             $table->id();
             $table->longText('aboutus');
+            $table->string('workyear');
+            $table->string('customer');
+            $table->string('satisfaction');
             $table->longText('about');
             $table->timestamps();
         });
