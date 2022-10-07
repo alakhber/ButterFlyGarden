@@ -163,6 +163,6 @@ class HomeController extends Controller
     {
         Mail::send(new ContactMail($request->validated()));
 
-        return redirect()->route('index')->with('sent', __('admin.mail-thanks'));
+        return redirect()->route('home')->with('sent', 'Mailiniz Ugurla Gonderildi');
     }
 }
