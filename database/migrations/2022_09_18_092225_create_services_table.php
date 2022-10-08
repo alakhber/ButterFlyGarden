@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('avatar')->nullable();
-            $table->text('slug');
+            $table->string('slug');
             $table->text('shortcontent');
             $table->unsignedBigInteger('position')->default(1);
             $table->longText('content');

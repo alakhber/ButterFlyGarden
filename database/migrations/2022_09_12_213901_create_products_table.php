@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('barcode')->nullable();
             $table->string('madeby')->nullable();
             $table->string('avatar')->nullable();
-            $table->text('slug')->unique();
+            $table->string('slug')->unique();
             $table->longText('content')->nullable();
             $table->unsignedBigInteger('stok')->nullable();
             $table->boolean('status')->default(1);
