@@ -20,37 +20,37 @@ class CategorySeeder extends Seeder
             'slug'=>'main',
         ]);
 
-        Category::create([
-            'name'=>'Agaclar',
-            'slug'=>_slug('Agaclar'),
-            'category_id'=>1,
-        ]);
-        Category::create([
-            'name'=>'Kollar',
-            'slug'=>_slug('Kollar'),
-            'category_id'=>1,
-        ]);
+        // Category::create([
+        //     'name'=>'Agaclar',
+        //     'slug'=>_slug('Agaclar'),
+        //     'category_id'=>1,
+        // ]);
+        // Category::create([
+        //     'name'=>'Kollar',
+        //     'slug'=>_slug('Kollar'),
+        //     'category_id'=>1,
+        // ]);
         
-        Category::create([
-            'name'=>'Hemise Yaşıl',
-            'slug'=>_slug('Hemise Yaşıl'),
-            'category_id'=>2,
-        ]);
-        Category::create([
-            'name'=>'Dekor',
-            'slug'=>_slug('Dekor'),
-            'category_id'=>2,
-        ]);
-        Category::create([
-            'name'=>'Yaşıl Kollar',
-            'slug'=>_slug('Yaşıl Kollar'),
-            'category_id'=>3,
-        ]);
-        Category::create([
-            'name'=>'Rengli Kollar',
-            'slug'=>_slug('Rengli Kollar'),
-            'category_id'=>3,
-        ]);
+        // Category::create([
+        //     'name'=>'Hemise Yaşıl',
+        //     'slug'=>_slug('Hemise Yaşıl'),
+        //     'category_id'=>2,
+        // ]);
+        // Category::create([
+        //     'name'=>'Dekor',
+        //     'slug'=>_slug('Dekor'),
+        //     'category_id'=>2,
+        // ]);
+        // Category::create([
+        //     'name'=>'Yaşıl Kollar',
+        //     'slug'=>_slug('Yaşıl Kollar'),
+        //     'category_id'=>3,
+        // ]);
+        // Category::create([
+        //     'name'=>'Rengli Kollar',
+        //     'slug'=>_slug('Rengli Kollar'),
+        //     'category_id'=>3,
+        // ]);
         
 
         // for ($i=1; $i <15 ; $i++) { 
